@@ -29,7 +29,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v5
         with:
           args: >
-             -Dsonar.projectKey=skaftabuddin_devsecops-pipeline-demo
-             -Dsonar.organization=skaftabuddin
-         env:
-           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+            -Dsonar.projectKey=skaftabuddin_devsecops-pipeline-demo
+            -Dsonar.organization=skaftabuddin
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

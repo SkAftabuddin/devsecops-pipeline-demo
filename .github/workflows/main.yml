@@ -33,3 +33,10 @@ jobs:
             -Dsonar.organization=skaftabuddin
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      - name: Run OWASP Dependency Check
+        uses: dependency-check/Dependency-Check_Action@main
+        with:
+          project: 'devsecops-demo'
+          path: '.'
+          format: 'HTML'

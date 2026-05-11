@@ -40,3 +40,6 @@ jobs:
           project: 'devsecops-demo'
           path: '.'
           format: 'HTML'
+      
+      - name: Build Docker Image
+        run: docker build -t devsecops-demo .

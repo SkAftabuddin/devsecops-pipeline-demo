@@ -30,6 +30,6 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=skaftabuddin
-            -Dsonar.organization=Shaikh Aftabuddin
+            -Dsonar.organization=SkAftabuddin_devsecops-pipeline-demo
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

@@ -1,8 +1,9 @@
 {
   "name": "devsecops-demo",
   "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo Tests Passed"
-  }
+    "start": "node app.js"
+  },
+  "dependencies": {}
 }

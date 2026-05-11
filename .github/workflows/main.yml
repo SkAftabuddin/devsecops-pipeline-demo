@@ -37,8 +37,8 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v5
         with:
           args: >
-            -Dsonar.projectKey=juice-shop-devsecops
-            -Dsonar.organization=${{ secrets.SONAR_ORG }}
+            -Dsonar.projectKey=skaftabuddin_devsecops-pipeline-demo
+            -Dsonar.organization=skaftabuddin
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 

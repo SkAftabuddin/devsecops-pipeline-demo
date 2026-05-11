@@ -28,8 +28,8 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@v5
         with:
-          args: >
-            -Dsonar.projectKey=skaftabuddin
-            -Dsonar.organization=SkAftabuddin_devsecops-pipeline-demo
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        args: >
+             -Dsonar.projectKey=skaftabuddin_devsecops-pipeline-demo
+             -Dsonar.organization=skaftabuddin
+         env:
+         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
